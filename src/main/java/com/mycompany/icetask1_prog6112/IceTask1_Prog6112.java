@@ -20,5 +20,10 @@ public class IceTask1_Prog6112 {
         // Prompt the user for how many students there are
         System.out.print("Enter the number of students: ");
         int students = kb.nextInt();
+        
+
+        // two-dimensional array
+        // Columns: 0 = Student Number, 1 = Challenge 1, 2 = Challenge 2, 3 = Challenge 3, 4 = Total Marks, 5 = Percentage
+        double[][] results = new double[students][6];
     }
 }
